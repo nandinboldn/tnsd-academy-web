@@ -8,14 +8,15 @@ const IntroSection = props => {
           BE YOUR BEST. LEARN HOW TO WIN
         </h1>
         <p>
-          At TNSD Academy every player aims to be their best. Whether you're a
-          young player aiming for the stars, a seasoned enthusiast, or a former
-          professional keeping your game sharp, our Academy is the place for
-          you. Set against a backdrop of the Adriatic Sea and equipped with
-          top-tier facilities, we blend structured training with a welcoming
-          environment. Our team of certified, experienced coaches is committed
-          to helping you reach your goals, refine your technique, and reignite
-          your love for the game, no matter your level.
+          At TNSD Academy every player aims to be their best. Whether
+          you&apos;re a young player aiming for the stars, a seasoned
+          enthusiast, or a former professional keeping your game sharp, our
+          Academy is the place for you. Set against a backdrop of the Adriatic
+          Sea and equipped with top-tier facilities, we blend structured
+          training with a welcoming environment. Our team of certified,
+          experienced coaches is committed to helping you reach your goals,
+          refine your technique, and reignite your love for the game, no matter
+          your level.
         </p>
       </div>
 
