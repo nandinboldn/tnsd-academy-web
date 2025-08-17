@@ -2,8 +2,10 @@ import React from 'react';
 
 type MerchDetail = {
   name: string;
+  description: string;
+  sizeDescription?: string;
   price: string;
-  //   sizeStocks: json;
+  sizeStocks: JSON;
 };
 const MerchDetail = (props: MerchDetail) => {
   return <div></div>;

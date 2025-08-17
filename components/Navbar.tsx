@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`shadow p-4 h-20vh sticky top-0 z-9999 transition-all duration-300 ${
+      className={`shadow p-4 h-20vh sticky top-0 z-[9999] transition-all duration-300 ${
         isScrolled ? 'bg-[#10275b]' : 'bg-transparent'
       }`}>
       <div className='flex w-full items-center justify-between text-2xl'>
