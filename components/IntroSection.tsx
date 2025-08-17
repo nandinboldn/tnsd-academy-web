@@ -1,6 +1,6 @@
 import React from 'react';
 
-const IntroSection = props => {
+const IntroSection = (props: any) => {
   return (
     <div className='bg-lightblue p-20 text-black'>
       <div className='text-center'>

@@ -8,6 +8,7 @@ import { Providers } from './providers';
 import { siteConfig } from '@/config/site';
 import { fontSans } from '@/config/fonts';
 import Navbar from '@/components/Navbar';
+
 import { Montserrat } from 'next/font/google';
 import { Toaster } from 'react-hot-toast';
 
