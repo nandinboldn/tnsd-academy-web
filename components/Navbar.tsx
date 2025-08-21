@@ -69,8 +69,8 @@ export default function Navbar() {
             <Link href='/about' onClick={() => setSideBarOpen(false)}>
               About
             </Link>
-            <Link href='/camps' onClick={() => setSideBarOpen(false)}>
-              Camps
+            <Link href='/merch' onClick={() => setSideBarOpen(false)}>
+              Merch
             </Link>
             <Link href='/contact' onClick={() => setSideBarOpen(false)}>
               Contact

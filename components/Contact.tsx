@@ -1,12 +1,14 @@
 // app/contact/page.tsx (for App Router)
 'use client';
-import { Input, Textarea, Button } from '@heroui/react';
+import { Input, Textarea, Button, Checkbox } from '@heroui/react';
 import { Card, CardBody, CardHeader } from '@heroui/react';
 
 // import { Input } from '@/components/ui/input';
 // import { Textarea } from '@/components/ui/textarea';
 // import { Button } from '@/components/ui/button';
 // import { Card, CardContent, CardHeader } from '@/components/ui/card';
+import Link from 'next/link';
+
 import { useState } from 'react';
 
 export default function ContactPage() {
@@ -30,14 +32,19 @@ export default function ContactPage() {
   };
 
   return (
-    <div className='min-h-full flex flex-col items-center justify-center'>
-      <form onSubmit={handleSubmit} className='space-y-4'>
+    <div className='h-screen flex flex-col items-center justify-center bg-blue'>
+      <form onSubmit={handleSubmit} className='space-y-4 w-1/2 md:w-1/3'>
+        <div className='mb-5'>
+          <h1 className='titleBold text-2xl'>CONTACT FORM</h1>
+          <p>SEND US AN INQUIRY</p>
+        </div>
+
         <Input
           name='name'
           placeholder='Full Name'
           value={formData.name}
           onChange={handleChange}
-          variant='underlined'
+          variant='bordered'
           type='text'
           required
         />
@@ -48,7 +55,7 @@ export default function ContactPage() {
             type='email'
             value={formData.email}
             onChange={handleChange}
-            variant='underlined'
+            variant='bordered'
             required
           />
 
@@ -58,7 +65,7 @@ export default function ContactPage() {
             value={formData.phone}
             type='phone'
             onChange={handleChange}
-            variant='underlined'
+            variant='bordered'
             required
           />
         </span>
@@ -71,6 +78,17 @@ export default function ContactPage() {
           onChange={handleChange}
           required
         />
+
+        <div className='flex'>
+          <Checkbox />
+          <p>
+            I have read and agree with
+            <Link href='#' className='text-yellowski underline'>
+              {' '}
+              Privacy Policy
+            </Link>
+          </p>
+        </div>
         <div className='items-center justify-center flex'>
           <Button type='submit' variant='light'>
             Send

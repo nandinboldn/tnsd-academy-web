@@ -9,7 +9,7 @@ const config = {
   ],
   theme: {
     extend: {
-      colors: { blue: '#10275b', yellowski: '#b9f303', lightblue: '#C9E0E2' },
+      colors: { blue: '#10275b', yellowski: '#b9f303', lightblue: '#F4FDFD' },
       fontFamily: {
         sans: ['var(--font-sans)'],
         mono: ['var(--font-mono)']

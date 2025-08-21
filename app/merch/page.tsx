@@ -6,7 +6,7 @@ const MerchPage = props => {
   return (
     <>
       <MerchHeroSection />
-      <Merchandise />;
+      <Merchandise />
     </>
   );
 };

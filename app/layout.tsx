@@ -52,7 +52,8 @@ export default function RootLayout({
           <div className='flex flex-col bg-cover bg-[url(/tennis_court.jpg)]'>
             <main>
               <Navbar />
-              <Toaster position='top-center' reverseOrder={false} />;{children}
+              <Toaster position='top-center' reverseOrder={false} />
+              {children}
             </main>
           </div>
         </Providers>

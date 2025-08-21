@@ -5,22 +5,22 @@ const teamMembers = [
   {
     name: 'Gunburd B.',
     role: 'Head Coach & Founder',
-    image: '/team/ivan.jpg' // Store in /public/team/
+    image: '/team/avatar1.jpg' // Store in /public/team/
   },
   {
     name: 'Urnukh B.',
     role: 'Performance Director',
-    image: '/team/ana.jpg'
+    image: '/team/avatar1.jpg'
   },
   {
     name: 'Baatarsuren B.',
     role: 'Performance Director',
-    image: '/team/ana.jpg'
+    image: '/team/avatar1.jpg'
   },
   {
     name: 'Badrakh M.',
     role: 'Fitness & Conditioning',
-    image: '/team/marko.jpg'
+    image: '/team/avatar1.jpg'
   }
 ];
 
@@ -112,7 +112,7 @@ export default function AboutUs() {
                 />
               </div>
               <h3 className='text-xl font-semibold'>{member.name}</h3>
-              <p className='text-gray-600'>{member.role}</p>
+              <p className='text-lightblue'>{member.role}</p>
             </div>
           ))}
         </div>
